@@ -11,12 +11,12 @@ var modal = new Backbone.TbModal({
 });
 
 
-//Available public methods
-modal.show()
-modal.hide()
-modal.toggle()
+Available public methods:
+show()
+hide()
+toggle()
 
-//Events:
+Events:
 show
 shown
 hide
