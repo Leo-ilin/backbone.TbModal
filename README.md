@@ -1,23 +1,23 @@
-backbone.TbModal
+# backbone.TbModal
 ================
 
-Bootstrap 3 Modal for using as backbonejs plugin
+## Bootstrap 3 Modal for using as backbonejs plugin
 
 var modal = new Backbone.TbModal({
-	title: 'Заголовок',
-	okText: 'Пуск',
-	cancelText: 'Отмена',
-	body: new Backbone.View()
+	title: 'Header',
+	okText: 'Ok',
+	cancelText: 'Cancel',
+	body: new Backbone.View()//your view for modal body
 });
 
 
 Available public methods:
-show()
-hide()
-toggle()
+* show()
+* hide()
+* toggle()
 
 Events:
-show
-shown
-hide
-hidden
+* show
+* shown
+* hide
+* hidden
